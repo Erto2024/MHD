@@ -1,0 +1,35 @@
+.loader .firstInput{
+  background-color: var(--silver);
+  grid-column: 1/4;
+  grid-row: 1/2;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.loader .secondInput{
+  background-color: var(--silver);
+  grid-column: 1/4;
+  grid-row: 2/3;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+input{
+  border: none;
+  outline: none;
+}
+button{
+  border:none;
+}
+
+
+.loader{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: clamp(20%,10%,5%);
+  width: 80%;
+  height: 60%;
+}
