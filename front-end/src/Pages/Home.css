@@ -1,0 +1,42 @@
+
+.half{
+  width: 50vw;
+  height: 90vh;
+}
+
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+  width:100vw;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  width:90%;
+  height:90%;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  width:90%;
+  height:90%;
+}
+.gmap_iframe {height:90%!important;}
+
+@media screen and (max-width: 1300px) {
+  .first{
+    width: 100%;
+  }
+}
