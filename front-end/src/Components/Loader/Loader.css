@@ -1,0 +1,61 @@
+.loader .firstInput{
+  background-color: var(--silver);
+  grid-column: 1/4;
+  grid-row: 1/2;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.loader .secondInput{
+  background-color: var(--silver);
+  grid-column: 1/4;
+  grid-row: 2/3;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+input{
+  border: none;
+  outline: none;
+  background-color: var(--silver);
+  font-size: 1.1em; 
+  cursor: pointer;
+  border-radius: 4px; 
+  text-align: center;
+  font-weight: bold;
+}
+button{
+  border:none;
+  border-radius: 4px;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.searchButton{
+  background-color: var(--navy);
+  color: var(--biela);
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.loader{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  row-gap: clamp(20%,10%,5%);
+  column-gap: clamp(10%,5%,3%);
+  width: 80%;
+  height: 60%;
+}
+

@@ -18,6 +18,7 @@
 
 .main{
   display: flex;
+  width:100vw;
 }
 
 .mapouter{
@@ -33,3 +34,9 @@
   height:90%;
 }
 .gmap_iframe {height:90%!important;}
+
+@media screen and (max-width: 1300px) {
+  .first{
+    width: 100%;
+  }
+}

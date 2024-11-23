@@ -1,7 +1,7 @@
 import './App.css'
-import "./Header/Header"
-import Header from './Header/Header'
-import Loader from './Loader/Loader'
+import "./Components/Header/Header"
+import Header from './Components/Header/Header'
+import Loader from './Components/Loader/Loader'
 
 function App() {
 
@@ -10,10 +10,10 @@ function App() {
       <Header />
       <div className='main'>
         <div className='half first'>
-        <Loader />
+          <Loader />
         </div>
         <div className='half second'>
-          <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=580&amp;height=400&amp;hl=en&amp;q=Bratislava&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
+          <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=580&amp;height=400&amp;hl=en&amp;q=Bratislava&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
       </div>
       </div>
     </>
