@@ -7,7 +7,6 @@ function Home() {
 
   return (
     <>
-      <Header />
       <div className='main'>
         <div className='half first'>
           <Loader />
